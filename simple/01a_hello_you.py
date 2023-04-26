@@ -12,10 +12,7 @@ def print_hi(name):
 
 
 def main():
-    try:
-        print_hi(sys.argv[1])
-    except IndexError:
-        print(f"Correct usage: {sys.argv[0]} command-line-argument")
+    print_hi("Everyone!")
 
 
 # Press the green button in the gutter to run the script.
